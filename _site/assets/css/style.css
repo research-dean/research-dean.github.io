@@ -83,7 +83,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 }
 .carousel-inner{
   width:100%;
-  max-height: 600px !important;
+  max-height: 800px !important;
 }
 .post-sidebar{
     margin-top: 15px;
@@ -376,8 +376,8 @@ p.blog-text{
 
 @media (max-width: 768px){ 
     .office-logo{
-      height: 100px;
-      width: 60px;
+      height: 80px;
+      width: 80px;
   }
 }
 
@@ -472,9 +472,13 @@ p.blog-text{
   padding: 10px;
   background:#061F20;
   color: white;
+  height: 256px;
 }
 .service-icon{
   color: white;
+}
+.services-body{
+  margin: 0 32px;
 }
 
 
