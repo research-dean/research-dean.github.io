@@ -5,5 +5,7 @@ $(document).ready(function() {
         $('#nav-home').addClass('active');
     } else if (path == '/about.html') {
         $('#nav-about').addClass('active');
+    } else if (path === '/blog.html') {
+        $('#nav-blog').addClass('active');
     }
 });
