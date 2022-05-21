@@ -438,7 +438,6 @@ p.blog-text{
   padding-bottom: 50px;
 }
 .services-section .services-header {
-  margin-bottom: 50px;
   font-size: 25px;
 }
 .services-section .services-header .services-header-title {
@@ -927,4 +926,11 @@ footer h3 {
 .footer-contact a:active {
   color: white;
   text-decoration: underline;
+}
+@media (max-width: 575px) {
+  #nav-ul {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
 }
